@@ -2,6 +2,6 @@ const $bagProductionDetailBtn = document.querySelector(
   "#bagProductionDetailBtn"
 );
 
-$bagProductionDetailBtn.click(() => {
+$bagProductionDetailBtn.addEventListener("click", () => {
   alert(1);
 });
