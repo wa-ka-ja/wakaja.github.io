@@ -12,9 +12,12 @@
     width: 100vw;
     height: 100vh;
     .btn_group_f{
-        
-        #bagProductionDetailBtn{
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        button{
+            margin: 5px 0;
         }
     }
     

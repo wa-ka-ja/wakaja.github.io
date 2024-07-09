@@ -11,4 +11,13 @@
 .win {
   width: 100vw;
   height: 100vh;
+}
+.win .btn_group_f {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.win .btn_group_f button {
+  margin: 5px 0;
 }/*# sourceMappingURL=index.css.map */
